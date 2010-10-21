@@ -1,0 +1,12 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+repositories {
+  mavenCentral()
+  mavenRepo urls: "https://collaborate.bt.com/artefacts/content/groups/public"
+}
+
+dependencies {
+    testCompile 'junit:junit:4.8.1'
+}
