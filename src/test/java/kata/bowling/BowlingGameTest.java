@@ -76,7 +76,7 @@ public class BowlingGameTest {
     }
   }
 
-  private void bowlNoScoreFrames(int noScoreFrames) {
-    bowlManyTimes(0, noScoreFrames);
+  private void bowlNoScoreFrames(int times) {
+    bowlManyTimes(0, 2*times);
   }
 }
